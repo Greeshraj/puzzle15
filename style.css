@@ -1,0 +1,103 @@
+body {
+	background-color: rgb(223, 134, 134);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+header{
+	 
+	text-align: center;
+	 color: white;
+}
+ 
+ 
+ .logo{
+	font-size: 4vw;
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+	font-weight: bold;
+ }
+
+#controls,
+#box,
+#gameplay {
+	width: 400px;
+}
+
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0px;
+	text-align: center;
+}
+
+ #resetnow{
+	border: 2px solid;
+	border-radius:8px;
+ }
+ #resetnow:hover{
+	color:blue;
+	cursor: pointer;
+ }
+#box {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ 
+#gameplay {
+	font-size: 32px;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+.puzzlepiece {
+	background-color: rgb(207, 208, 240); 
+	border: 2px solid black;
+	height: 96px;
+	line-height: 96px;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+}
+
+#resetnow{
+	color: rgb(25, 24, 24);
+	background-color: #cbe1cb;
+}
+.bott{
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	border: 2px solid black;
+	height: 10vw;
+	width: 100%;
+	color: white;
+background-color: black;
+}
+.bottom li
+{
+display:inline-block;
+padding:43px 10px;
+}
+.bottom li a
+{
+display:block;
+padding:8px 15px;
+text-decoration:none;
+font-weight:600;
+letter-spacing:1px;
+color:white;
+font-size:18px;
+}
+.copy{
+position: fixed;
+bottom: 0px;
+left: 50%;
+text-align: center;
+
+}
+ 
